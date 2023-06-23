@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Barbie";
+  src: url("/font/Barbie.ttf");
+}
+
+h3 {
+  text-align: center;
+  color: deeppink;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  color: deeppink;
+  font-family: "Barbie";
+  font-size: 300%;
+}
+
+h2 {
+  text-align: center;
+  color: deeppink;
+  font-style: italic;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid deeppink;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+}
