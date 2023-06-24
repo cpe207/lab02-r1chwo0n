@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Barbie";
-  src: url("/font/Barbie.ttf");
+  src: url("font/Barbie.ttf");
 }
 
 h1 {
@@ -55,7 +55,7 @@ p {
 }
 
 body {
-  background-image: url("/images/BarbieVintage.png");
+  background-image: url("images/BarbieVintage.png");
   background-size: cover;
 }
 
