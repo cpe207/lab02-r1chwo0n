@@ -26,15 +26,16 @@ h3 {
   color: deeppink;
   font-family: "Barbie";
   letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 .skill-header {
   text-align: left;
-}
-
-.skill-container {
-  display: flex;
-  justify-content: center;
 }
 
 .card {
@@ -45,10 +46,12 @@ h3 {
   border-radius: 8px;
   background-color: beige;
   box-shadow: 4px 4px 8px black;
+  line-height: 1.5;
 }
 
 p {
   text-align: center;
+  font-size: 18px;
 }
 
 body {
