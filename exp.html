@@ -4,67 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Portfolio</h1>
+    <div
+      class="d-flex gap-4 align-items-center p-2 px-4"
+      style="
+        font-size: 20px;
+        font-family: Barbie;
+        letter-spacing: 2px;
+        background-color: #1d499a;
+      "
+    >
+      <h1 class="me-auto">My Portfolio</h1>
+      <a href="index.html" class="text-white">Home</a>
+      <a href="exp.html" class="text-white">Experience</a>
+      <a href="gallery.html" class="text-white">Gallery</a>
+      <a href="contact.html" class="text-white">Contact</a>
+    </div>
 
-    <p style="margin-right: 5px">
-      <a href="index.html" class="button">Home</a>
-
-      <a href="exp.html" class="button" style="margin-left: 5px">Experience</a>
-
-      <a href="contact.html" class="button" style="margin-left: 5px"
-        >Contact me</a
+    <h2 class="my-4">Experience</h2>
+    <div class="my-4"></div>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div
+        class="d-flex border mb-3 picshadow my-rounded-all"
+        style="background-color: beige"
       >
-    </p>
-
-    <div class="picshadow">
-      <img
-        src="images/my pic.jpg"
-        width="200px"
-        style="margin-left: auto; margin-right: auto; display: block"
-      />
-    </div>
-
-    <h2 style="text-align: center">Nawawan Thaichim</h2>
-    <div class="container">
-      <div class="card">
-        <p>
-          I rarely go out for activities. I hope to have more courage in the
-          future.
-        </p>
+        <div class="my-rounded-left">
+          <img
+            src="images/BU.png"
+            width="250px"
+            height="200px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-4 letter" style="color: deeppink">
+            BU Boot Camp
+          </p>
+          <span class="fs-6">
+            "I have participated in BU Boot Camp 2018. I learned how to edit and
+            shoot videos here for the first time."
+          </span>
+        </div>
       </div>
-    </div>
-
-    <h2>Experiences</h2>
-
-    <div class="container">
-      <div class="card">
-        <img
-          src="images/BU.png"
-          width="300px"
-          height="250px"
-          style="margin-left: auto; margin-right: auto; display: block"
-        />
-        <h3 class="skill-header">Partipication</h3>
-        <p>
-          I have participated in BU Boot Camp 2018. I learned how to edit and
-          shoot videos here for the first time.
-        </p>
+      <div
+        class="d-flex border mb-3 picshadow my-rounded-all"
+        style="background-color: beige"
+      >
+        <div class="p-4">
+          <p class="fw-bold fs-4 letter" style="color: deeppink">
+            Nct DREAM concert
+          </p>
+          <span class="fs-6">
+            "My dream come trueT-T I spent a lot of money, but I am very happy."
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="images/concert.jpg"
+            width="250px"
+            height="200px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
       </div>
-      <div class="card">
-        <img
-          src="images/concert.jpg"
-          width="180px"
-          height="250px"
-          style="margin-left: auto; margin-right: auto; display: block"
-        />
-        <h3 class="skill-header">Concert</h3>
-        <p>
-          My dream come trueT-T I spent a lot of money, <br />but I am very
-          happy.
-        </p>
+      <div
+        class="d-flex border mb-3 picshadow my-rounded-all"
+        style="background-color: beige"
+      >
+        <div class="my-rounded-left">
+          <img
+            src="images/cer.jpg"
+            width="250px"
+            height="200px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-4 letter" style="color: deeppink">
+            Academic excellence
+          </p>
+          <span class="fs-6">
+            "It was the first time that I received a certificate from the
+            university. hopefully in the next year I will get it again."
+          </span>
+        </div>
       </div>
     </div>
   </body>

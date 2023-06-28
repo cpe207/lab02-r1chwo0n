@@ -4,59 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Portfolio</h1>
-
-    <p style="margin-right: 5px">
-      <a href="index.html" class="button">Home</a>
-
-      <a href="exp.html" class="button" style="margin-left: 5px">Experience</a>
-
-      <a href="contact.html" class="button" style="margin-left: 5px"
-        >Contact me</a
-      >
-    </p>
-
-    <div class="picshadow">
-      <img
-        src="images/my pic.jpg"
-        width="200px"
-        style="margin-left: auto; margin-right: auto; display: block"
-      />
+    <div
+      class="d-flex gap-4 align-items-center p-2 px-4"
+      style="
+        font-size: 20px;
+        font-family: Barbie;
+        letter-spacing: 2px;
+        background-color: #1d499a;
+      "
+    >
+      <h1 class="me-auto">My Portfolio</h1>
+      <a href="index.html" class="text-white ">Home</a>
+      <a href="exp.html" class="text-white ">Experience</a>
+      <a href="gallery.html" class="text-white ">Gallery</a>
+      <a href="contact.html" class="text-white ">Contact</a>
     </div>
 
-    <h2 style="text-align: center">Nawawan Thaichim</h2>
-    <div class="container">
-      <div class="card">
-        <p>Argent please call na ka</p>
+    <h2 class="my-4">Contact</h2>
+    <div
+      class="d-flex justify-content-center align-items-center gap-3 mx-auto my-4 p-4 picshadow my-rounded-all flex-wrap"
+      style="max-width: 700px; background-color: beige"
+    >
+      <div>
+        <img
+          src="images/princess.jpg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
       </div>
-    </div>
 
-    <h2>Contact</h2>
-    <div class="container">
-      <div class="card">
-        <p>
-          Facebook :
-          <a
-            href="https://www.facebook.com/profile.php?id=100015550324904"
-            target="_blank"
-            >Nawawan Thaichim</a
-          >
-          <br />Instagram :
-          <a href="https://www.instagram.com/r1chwo0n/" target="_blank"
-            >r1chwo0n</a
-          >
-          <br />
-          Email :
-          <a href="mailto:nawawan_th@cmu.ac.th" target="_blank"
-            >nawawan_th@cmu.ac.th</a
-          >
-          <br />
-          Call : 0945956225
-        </p>
+      <div class="vstack gap-2" style="max-width: 400px">
+
+        <div class="d-flex">
+          <div class="display-5 mb-3 letter fw-bold fs-1" style="color: deeppink">
+            Nawawan Thaichim
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="letter fw-bold fs-5">Address</Address></div>
+          <span class="fs-6">120/1 Bang Luek Substrict, Mueang District, Chumphon 86000</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="letter fw-bold fs-5">Facebook</Address></div>
+          <span class="fs-6">
+            <a href="https://www.facebook.com/profile.php?id=100015550324904">Nawawan Thaichim</a>
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="letter fw-bold fs-5">Instagram</Address></div>
+          <span class="fs-6">
+            <a href="https://www.instagram.com/r1chwo0n/">r1chwo0n</a>
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="letter fw-bold fs-5">Email</Address></div>
+          <span class="fs-6">
+            <a href="mailto:nawawan_th@cmu.ac.th">nawawan_th@cmu.ac.th</a>
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="letter fw-bold fs-5">Call</Address></div>
+          <span class="fs-6">0945956225</span>
+        </div>
+
       </div>
+      
     </div>
   </body>
 </html>
